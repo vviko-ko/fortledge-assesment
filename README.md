@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# GoodFood Dashboard
 
-## Getting Started
+A responsive, modern food delivery dashboard application built with Next.js 15, Tailwind CSS, and Recharts. This project implements a high-fidelity design with interactive data visualization widgets.
 
-First, run the development server:
+##  Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Responsive Design**: Adapts seamlessly to different screen sizes.
+- **Interactive Charts**:
+  - **Revenue Chart**: Bar chart showing revenue trends.
+  - **Order Time**: Donut chart visualizing order distribution by time of day.
+  - **Order Trend**: Line chart displaying sales trends.
+- **Dashboard Widgets**:
+  - **Ratings**: Visual circular progress indicators for hygiene, packaging, and taste.
+  - **Food List**: "Most Ordered Food" section with pricing.
+- **Modern UI**: Clean interface with Sidebar navigation, Header with search/profile, and consistent styling using Tailwind CSS.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js 15](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Charts**: [Recharts](https://recharts.org/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Language**: TypeScript
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+##  Getting Started
 
-## Learn More
+1. **Clone the repository:**
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone <repository-url>
+   cd fortledge-assesment
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. **Install dependencies:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   npm install
+   ```
 
-## Deploy on Vercel
+3. **Run the development server:**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm run dev
+   ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+4. **Open the application:**
+   Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+##  Project Structure
+
+- `app/`: Next.js App Router pages and layout.
+- `components/`: Reusable UI components and Dashboard widgets (Sidebar, Header, Charts).
+- `public/`: Static assets.
+
+##  Design Reference
+
+This project was built to match a specific UI design mock for "GoodFood", focusing on pixel-perfect implementation and attention to detail.
